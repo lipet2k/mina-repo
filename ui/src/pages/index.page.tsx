@@ -28,7 +28,7 @@ export default function Home() {
         );
       }
 
-      const zkApp = new Add(PublicKey.fromBase58(zkAppAddress));
+      // const zkApp = new Add(PublicKey.fromBase58(zkAppAddress));
       
     })();
   }, []);
